@@ -1,0 +1,45 @@
+.input {
+
+    &-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &-preview {
+        max-width: 100px;
+        max-height: 100px;
+        border-radius: 6px;
+        object-fit: contain;
+        cursor: pointer;
+
+        img {
+            border-radius: 4px;
+            border: 2px dashed rgb(204, 187, 187);
+        }
+    }
+
+    &-label {
+
+        .drop-area {
+            width: 150px;
+            height: 150px;
+            border: 2px dashed #ccc;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            overflow: hidden;
+        }
+
+        .drop-active {
+            border-color: #4a90e2;
+            background-color: #f0f8ff;
+        }
+    }
+
+    &-file {
+        display: none;
+    }
+}

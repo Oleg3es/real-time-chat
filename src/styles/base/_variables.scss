@@ -1,0 +1,21 @@
+:root {
+    --color-page: rgb(245, 245, 245);
+    --color-main-text: #123644;
+    --color-pannel: #0D2D3D;
+    --color-button: linear-gradient(270deg, #F7A906 0%, #FFCB05 100%);
+    --color-post:  #FFFFFF;
+    --color-delete-button: #F32727;
+
+    --border-input: #C6C7C7;
+    --border-radius-post: 16px;
+
+    --font-family: 'PTSans', 'sens-serif';
+
+    --container-width: 1106px;
+    --container-padding-x: 20px;
+    --main-featured-padding-y: 60px;
+
+    --button-height: 50px;
+
+    --transition-duration: 0.2s;
+}

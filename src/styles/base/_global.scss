@@ -1,0 +1,45 @@
+@use './fonts' as *;
+@use './mixins' as *;
+
+body {
+  @include fluid-text(15, 18);
+  
+  font-family: var(--font-family);
+  font-weight: 400;
+  line-height: 1.28;
+  color: var(--color-black);
+  background-color: var(--color-page);
+}
+
+
+a,
+button,
+textarea,
+svg * {
+    transition-duration: var(--transition-duration);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+h1 {
+    @include fluid-text(50, 36);
+}
+
+h2 {
+    @include fluid-text(36, 28);
+}

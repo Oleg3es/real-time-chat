@@ -1,0 +1,21 @@
+.channels {
+    width: 550px;
+    margin-top: 40px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__pannel {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
